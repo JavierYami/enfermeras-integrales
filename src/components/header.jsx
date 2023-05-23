@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row items-start">
+            <div className="flex flex-row items-center justify-evenly">
 
                 <div className="flex flex-col text-center text-white">
                 <div className="bg-blue-900	rounded-t-3xl px-20">
@@ -34,7 +34,15 @@ const Header = () => {
                     <h2>enfermerasintegrales@live.com.mx</h2>
                 </div>
                 </div>
-                
+
+                <div>
+                    <div className="bg-blue-200 rounded-3xl text-3xl w-96 h-60 flex items-end p-3">
+                        <p>"Tu salud está en nuestras manos, está en buenas manos"</p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+
             </div>
 
         </div>
