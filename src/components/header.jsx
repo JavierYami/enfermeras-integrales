@@ -37,9 +37,11 @@ const Header = () => {
 
                 <div>
                     <div className="bg-blue-200 rounded-3xl text-3xl w-96 h-60 flex items-end p-3">
-                        <p>"Tu salud está en nuestras manos, está en buenas manos"</p>
-                        <p></p>
-                        <p></p>
+                        <div>
+                        <h1>"Tu salud</h1>
+                        <h1>en nuestras manos</h1>
+                        <h1 className="underline underline-offset-8">está en buenas manos"</h1>
+                        </div>
                     </div>
                 </div>
 
