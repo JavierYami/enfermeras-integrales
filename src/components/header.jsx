@@ -27,7 +27,7 @@ const Header = () => {
                 <div className="bg-blue-900	rounded-t-3xl px-20">
                     <h1 className="mb-3 mt-3">Contáctanos</h1>
                     <h2>Teléfonos de contacto</h2>
-                    <h3 className="mb-3">55 1546 8422 | 55 2118 0144</h3>
+                    <h3 className="mb-3 font-sans">55 1546 8422 | 55 2118 0144</h3>
                 </div>
                 <div className="bg-blue-200 rounded-b-3xl p-1">
                     <h1>Correo electrónico</h1>
@@ -36,10 +36,11 @@ const Header = () => {
                 </div>
 
                 <div>
-                    <div className="bg-blue-200 rounded-3xl text-3xl w-96 h-60 flex items-end p-3">
-                        <div>
+                    <div className="bg-blue-200 rounded-3xl text-3xl w-96 h-60 flex items-end py-10">
+                        <div className="font-bold p-3">
+                        <img className="bg-blue-900 p-3 rounded-3xl" src="https://res.cloudinary.com/dvldakcin/image/upload/v1684893137/uw2-public-demo-app/Enfermeras-integrales/nd36amivl40ktey9ozla.png" alt="enfermeras integrales" />
                         <h1>"Tu salud</h1>
-                        <h1>en nuestras manos</h1>
+                        <h1>en nuestras manos,</h1>
                         <h1 className="underline underline-offset-8">está en buenas manos"</h1>
                         </div>
                     </div>
